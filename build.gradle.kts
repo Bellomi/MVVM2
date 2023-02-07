@@ -3,7 +3,7 @@ plugins {
     detekt
     id("com.github.ben-manes.versions") version app.web.drjackycv.buildsrc.Depends.Versions.checkDependencyVersionsVersion
     id("com.osacky.doctor") version app.web.drjackycv.buildsrc.Depends.Versions.gradleDoctorVersion
-    id("com.autonomousapps.dependency-analysis") version app.web.drjackycv.buildsrc.Depends.Versions.dependencyAnalysisVersion
+    id("com.autonomousapps.dependency-analysis") version 1.19.0
 }
 
 buildscript {
